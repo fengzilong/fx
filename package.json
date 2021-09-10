@@ -1,19 +1,15 @@
 {
-  "name": "fx",
-  "version": "20.0.2",
-  "description": "Command-line JSON viewer",
-  "repository": "antonmedv/fx",
+  "name": "@biu/fx",
+  "version": "0.1.0",
+  "description": "JSON viewer",
+  "repository": "fengzilong/fx",
   "homepage": "https://fx.wtf",
   "author": "Anton Medvedev <anton@medv.io>",
   "license": "MIT",
-  "bin": {
-    "fx": "index.js"
-  },
   "files": [
     "*.js"
   ],
   "scripts": {
-    "test": "ava",
     "build": "pkg . --out-path dist",
     "zip": "cd dist && find . -name 'fx-*' -exec zip '{}.zip' '{}' \\;",
     "release": "release-it --github.release --github.assets=dist/*.zip",

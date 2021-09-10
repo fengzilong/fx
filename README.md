@@ -1,7 +1,4 @@
-<p align="center"><a href="http://fx.wtf"><img src="https://medv.io/assets/fx-logo.png" height="100" alt="fx logo"></a></p>
-<p align="center"><img src="https://medv.io/assets/fx.gif" width="562" alt="fx example"></p>
-
-_* Function eXecution_
+This is a fork of [fx](https://github.com/antonmedv/fx). This forked version exports a nodejs api to preview json instead of cli usage
 
 [![Build Status](https://travis-ci.org/antonmedv/fx.svg?branch=master)](https://travis-ci.org/antonmedv/fx)
 [![Npm Version](https://img.shields.io/npm/v/fx.svg)](https://www.npmjs.com/package/fx)
