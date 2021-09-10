@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "JSON viewer",
   "repository": "fengzilong/fx",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://fx.wtf",
   "author": "Anton Medvedev <anton@medv.io>",
   "license": "MIT",
